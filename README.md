@@ -23,8 +23,8 @@ You need to define the following global variables:
  
     VA_KEY: The kontagent api key.
  
- Usage examples:
- ---------------
+Usage examples:
+---------------
  
     var params = {channel_type: 'stream', subtype_1: 'popup', subtype_2: 'score_share', sender: current_user.facebook_id, u: va.trackingCode};
     va.fire("post", params);
