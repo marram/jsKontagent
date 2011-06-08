@@ -14,14 +14,16 @@ I've opted to integrate with Kontagent using JavaScript for the following reason
  
  Basic usage:
  You need to define the following global variables:
- VA_DOMAIN: The kontagent domain url. Like:
- "http://api.geo.kontagent.net/api/v1"
- or 
- "http://test-server.kontagent.com/api/v1" (test server)
+ > VA_DOMAIN: The kontagent domain url. Like:
+ > "http://api.geo.kontagent.net/api/v1"
+ > or 
+ > "http://test-server.kontagent.com/api/v1" (test server)
  
- VA_KEY: The kontagent api key.
- var params = {channel_type: 'stream', subtype_1: 'popup', subtype_2: 'score_share', 
- 			sender: current_user.facebook_id, u: va.trackingCode};
- va.fire("post", params);
+ > VA_KEY: The kontagent api key.
+ Usage examples:
+ ---------------
+ 
+ > var params = {channel_type: 'stream', subtype_1: 'popup', subtype_2: 'score_share', sender: current_user.facebook_id, u: va.trackingCode};
+ > va.fire("post", params);
  or
- va.fire("invite", params);
+ > va.fire("invite", params);
