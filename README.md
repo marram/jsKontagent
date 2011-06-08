@@ -12,8 +12,10 @@ I've opted to integrate with Kontagent using JavaScript for the following reason
     straightforward because we'll be queuing the calls.
 3. It's cheaper: Browsers are doing the work. We have to pay for CPU cycles on the server.
  
- Basic usage:
- You need to define the following global variables:
+Basic usage:
+------------ 
+You need to define the following global variables:
+    
     VA_DOMAIN: The kontagent domain url. Like:
     "http://api.geo.kontagent.net/api/v1"
     or 
