@@ -1,5 +1,8 @@
-== jsKontagent: A (prototype.js) Javascript Wrapper for the Kontagent Analytics API.
-=== How does it work?
+jsKontagent: A (prototype.js) Javascript Wrapper for the Kontagent Analytics API.
+=================================================================================
+
+How does it work?
+-----------------
 jsKontagent allows you to make calls to the Kontagent REST api through Javascript. 
 
 I've opted to integrate with Kontagent using JavaScript for the following reasons:
